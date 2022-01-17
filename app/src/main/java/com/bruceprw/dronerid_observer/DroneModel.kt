@@ -4,6 +4,6 @@ import com.google.firebase.database.IgnoreExtraProperties
 import kotlinx.parcelize.Parcelize
 @IgnoreExtraProperties
 @Parcelize
-data class droneModel(val basicID : String, val location: String, val auth: String = "", val selfID : String = "",
+data class DroneModel(val basicID : String, val data: String, val auth: String = "", val selfID : String = "",
                       val system : String = "", val operator : String = "") : Parcelable {
 }
