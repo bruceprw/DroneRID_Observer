@@ -367,7 +367,7 @@ class MainActivity : AppCompatActivity() {
 
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.
-                    showMessage(THIS_VIEW, "Permission Denied")
+                    //showMessage(THIS_VIEW, "Permission Denied")
                 }
                 return
 
